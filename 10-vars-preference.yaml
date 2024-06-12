@@ -20,3 +20,6 @@ vars:
 # 2. Task level
 # 3. Variable files
 # 4. Prompt
+# 5. Play level
+# 6. inventory
+# 7. role level
