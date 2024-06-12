@@ -1,0 +1,9 @@
+- name: conditions
+  hosts: web
+  become: yes
+  tasks:
+- name: check user exists or not
+ ansible.buitin.command: id expense
+
+- name: say Hello
+  ansile.buitin.debug
